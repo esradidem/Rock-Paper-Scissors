@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:background="@color/background_mint">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/sports_esports"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        app:tint="@color/base_purple" />
+
+    <TextView
+        android:id="@+id/textUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="40sp"
+        android:textColor="@color/purple_2"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="50dp"/>
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="@string/start"
+        android:textSize="40sp"
+        android:backgroundTint="@color/green_1"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textGameInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ⓘ How to play?"
+        android:textSize="20sp"
+        android:textColor="@color/purple_2"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_marginHorizontal="20dp"/>
+
+
+</LinearLayout>
